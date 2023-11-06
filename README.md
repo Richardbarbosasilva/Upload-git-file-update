@@ -1,8 +1,8 @@
-# Automate-Excel
-This VBA script has the power to automate any Excel formatation and convert files massively 
+I'm posting this because i've got surprised as the new way of uploading a file to a repository on github's page has changed
+since 2º semester of 2021, this way i got a little of trouble in uploading a project to there recently.
 
-# Automate-Excel
-This VBA script has the power to automate any Excel formatation and convert files massively 
+A i saw, in resume using your account's password is not allowed anymore, as now you have to create a PAT token to set the URL
+on the git's process, and on the websites i tried to search, some of them aren't actualizated, and even the github's
+tutorial is still in the old way.
+So i find this helpful for someone who may have some trouble in using git bash to upload a file to the github's repository
 
-All you have to do is copy and paste the script inside the developer's guide on a excel sheet (for that, create a module), change the path inside the script to the folder you would like to automatize, and if you need to automatize many folders just replicate the 
-script in another module, and before the "End Sub" on the script final's line, insert the command "Call X" where X is the other script name, it cannot be the same name as the first script. 
