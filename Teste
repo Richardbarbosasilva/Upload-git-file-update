@@ -1,2 +1,12 @@
 This file is being used as a test to demonstrate the new way of uploading a file to the github using git bash
 
+PROCESS ON WINDOWS:
+
+echo "# Upload-git-file-update" >> README.md
+git init
+git add README.md
+git add Teste
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://<set the PAT token here>@github.com/<Your github account here>/<write the repository's name here>.git 
+git push -u origin main
